@@ -26,13 +26,13 @@
 			<div class="collapse navbar-collapse" id="navmenu">
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item">
-						<a href="#learn" class="nav-link">Learn to play piano</a>
-					</li>
-					<li class="nav-item">
 						<a href="#online" class="nav-link">Play online</a>
 					</li>
 					<li class="nav-item">
 						<a href="#game" class="nav-link">Play a game</a>
+					</li>
+					<li class="nav-item">
+						<a href="#learn" class="nav-link">Learn to play piano</a>
 					</li>
 				</ul>
 			</div>
@@ -111,19 +111,39 @@
 	</section>
 
 	<!-- Igraj online -->
-	<section id="online" class="p-5 bg-dark text-light">
+	<section id="online" class="m-5">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
-				<div class="d-sm-flex align-items-center">
-					<img class=" pe-5 w-50 d-none d-md-block rounded" src="img/multiplayer.jpg" alt="Kid learning">
+				<div class="d-sm-flex justify-content-between align-items-center">
 					<div>
 						<h4>
 							Play online with friends
 						</h4>
-						<p class="lead">
+						<p class="lead me-5">
 							Let someone instruct you or play a song together.
 						</p>
-						<button class="btn btn-success btn-md my-2">Play online</button>
+						<button class="btn btn-success btn-md my-2">Play</button>
+					</div>
+					<img class="w-50 d-none d-md-block rounded" src="img/multiplayer.jpg" alt="Kid learning">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Igra -->
+	<section id="game" class="p-5 bg-dark text-light">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="d-sm-flex align-items-center">
+					<img class=" pe-5 w-50 d-none d-md-block rounded" src="img/pvp.jpg" alt="pvp">
+					<div>
+						<h4>
+							Try your skills in a game
+						</h4>
+						<p class="lead">
+							Play a game on your own or compete against a friend.
+						</p>
+						<button class="btn btn-success btn-md my-2">Play a game</button>
 					</div>
 				</div>
 			</div>
@@ -139,7 +159,7 @@
 						<h4>
 							Ready to learn?
 						</h4>
-						<p class="lead">
+						<p class="lead me-5">
 							Dive in at your own pace, no matter your skill.<br>
 							You can start at any difficulty for free.
 						</p>
@@ -150,7 +170,6 @@
 			</div>
 		</div>
 	</section>
-
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
