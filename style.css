@@ -1,9 +1,9 @@
 .carousel-caption {
-    top: 25%;
+    top: 20%;
     bottom: auto;
 }
 
 .carousel-control-next, .carousel-control-prev{
-    top: 33%;
+    top: 25%;
     bottom: auto;
 }
